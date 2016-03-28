@@ -462,6 +462,7 @@ shiftplanning.prototype.processQueue = function( )
 			shiftplanning.prototype.queue.shift( );
 			break;
 		}
+        shiftplanning.prototype.startQueue = 1;
 	}
 }
 
@@ -547,7 +548,7 @@ APIRequest.prototype.complete = function( )
 	{//
 		new APIRequest.prototype._complete( APIRequest.prototype._response.data,
 			APIRequest.prototype._response.status,
-			APIRequest.prototype._messages[ APIRequest.prototype._response.status ], 
+			APIRequest.prototype._messages[ APIRequest.prototype._response.status ],
 			APIRequest.prototype._response.error );
 		shiftplanning.prototype.processQueue( );
 	}
