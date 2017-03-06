@@ -12,7 +12,7 @@
 	var sdk_loader = (function()
 	{//
 		var s = document.createElement("script");
-		s.src = "https://www.shiftplanning.com/api/js-sdk/all.js";
+		s.src = "https://www.humanity.com/api/js-sdk/all.js";
 		s.type = "text/javascript";
 		document.getElementsByTagName("head")[0].appendChild(s);
 	});

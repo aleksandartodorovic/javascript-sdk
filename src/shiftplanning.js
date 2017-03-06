@@ -337,8 +337,8 @@ shiftplanning.prototype._sessionIdentifier = '_SP';
 shiftplanning.prototype._sessionInfo = shiftplanning.prototype._sessionIdentifier + '_userData';
 shiftplanning.prototype._sessionLength = 30;
 shiftplanning.prototype._domain = {
-		'base': "https://www.shiftplanning.com/api/js-sdk",
-		'api_endpoint': "https://www.shiftplanning.com/api/js-sdk/proxy.php"
+		'base': "https://www.humanity.com/api/js-sdk",
+		'api_endpoint': "https://www.humanity.com/api/js-sdk/proxy.php"
 	};
 
 shiftplanning.prototype.init = function( config )

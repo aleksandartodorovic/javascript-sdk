@@ -1,7 +1,7 @@
 ShiftPlanning Javascript SDK
 ================
 
-The [ShiftPlanning API](http://www.shiftplanning.com/api/) allows you to call modules within the ShiftPlanning [employee scheduling software](http://www.shiftplanning.com/) that respond in REST style JSON & XML.
+The [ShiftPlanning API](http://www.humanity.com/api/) allows you to call modules within the ShiftPlanning [employee scheduling software](http://www.humanity.com/) that respond in REST style JSON & XML.
 
 This repository contains the open source Javascript SDK that allows you to utilize the
 above on your website. Except as otherwise noted, the ShiftPlanning Javascript SDK
@@ -19,7 +19,7 @@ have is:
 	var sdk_loader = (function()
 	{//
 		var s = document.createElement("script");
-		s.src = document.location.protocol + "//www.shiftplanning.com/api/js-sdk/all.js";
+		s.src = document.location.protocol + "//www.humanity.com/api/js-sdk/all.js";
 		s.type = "text/javascript";
 		document.getElementsByTagName("head")[0].appendChild(s);
 	});
@@ -64,7 +64,7 @@ Logged in vs Logged out:
 	}
 
 [examples]: https://github.com/shiftplanning/javascript-sdk/tree/master/examples/
-[API]: http://www.shiftplanning.com/api/
+[API]: http://www.humanity.com/api/
 
 
 Feedback
